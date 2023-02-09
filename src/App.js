@@ -14,15 +14,27 @@ AOS.init();
 
 function App() {
   return (
-    <BrowserRouter basename="/myportfolio">
+    <BrowserRouter>
       <Routes className="App">
-        <Route path="/" element={<Portfolio />} />
-        <Route path="/jobrecommendation" element={<JobRecommendation />} />
-        <Route path="/pathfinder" element={<Pathfinder />} />
-        <Route path="/stockrecommender" element={<StockRecommender />} />
-        <Route path="/drawscillate" element={<Drawscillate />} />
-        <Route path="/distributedsystems" element={<DistributedSystems />} />
-        <Route path="/textclassification" element={<TextClassification />} />
+        <Route path="/myportfolio" element={<Portfolio />} />
+        <Route
+          path="/myportfolio/jobrecommendation"
+          element={<JobRecommendation />}
+        />
+        <Route path="/myportfolio/pathfinder" element={<Pathfinder />} />
+        <Route
+          path="/myportfolio/stockrecommender"
+          element={<StockRecommender />}
+        />
+        <Route path="/myportfolio/drawscillate" element={<Drawscillate />} />
+        <Route
+          path="/myportfolio/distributedsystems"
+          element={<DistributedSystems />}
+        />
+        <Route
+          path="/myportfolio/textclassification"
+          element={<TextClassification />}
+        />
       </Routes>
     </BrowserRouter>
   );

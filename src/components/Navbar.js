@@ -82,27 +82,27 @@ export class Navbar extends Component {
             <nav class="main-nav d-none d-lg-block">
               <ul>
                 <li>
-                  <HashLink smooth class="nav-link" to="/">
+                  <HashLink smooth class="nav-link" to="/myportfolio#home">
                     Home
                   </HashLink>
                 </li>
                 <li>
-                  <HashLink smooth class="nav-link" to="/#about">
+                  <HashLink smooth class="nav-link" to="/myportfolio#about">
                     About
                   </HashLink>
                 </li>
                 <li>
-                  <HashLink smooth to="/#experience">
+                  <HashLink smooth to="/myportfolio#experience">
                     Experience
                   </HashLink>
                 </li>
                 <li>
-                  <HashLink smooth to="/#projects">
+                  <HashLink smooth to="/myportfolio#projects">
                     Projects
                   </HashLink>
                 </li>
                 <li>
-                  <HashLink smooth to="/#contact">
+                  <HashLink smooth to="/myportfolio#contact">
                     Contact
                   </HashLink>
                 </li>

@@ -6,7 +6,10 @@ import wave from "../assets/img/wave.png";
 
 export default function Banner() {
   return (
-    <div class="jumbotron jumbotron-fluid main-banner mb-0 text-center">
+    <section
+      class="jumbotron jumbotron-fluid main-banner mb-0 text-center"
+      id="home"
+    >
       <div id="stars"></div>
       <div class="container banner-content">
         <p>
@@ -43,6 +46,6 @@ export default function Banner() {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
