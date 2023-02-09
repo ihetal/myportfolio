@@ -48,7 +48,7 @@ export class Experience extends Component {
                       San Jose, California
                     </p>
                     <p className="experience-card-duration">
-                      Sept 2020 - Present
+                      Sept 2020 - Dec 2020
                     </p>
                   </div>
                 </div>

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { HashLink } from "react-router-hash-link";
 import me from "../assets/img/me.jpg";
 import "../assets/css/header.css";
 export class Navbar extends Component {
@@ -81,23 +82,29 @@ export class Navbar extends Component {
             <nav class="main-nav d-none d-lg-block">
               <ul>
                 <li>
-                  <a class="nav-link" href="/myportfolio">
+                  <HashLink smooth class="nav-link" to="/">
                     Home
-                  </a>
+                  </HashLink>
                 </li>
                 <li>
-                  <a class="nav-link" href="/myportfolio#about">
+                  <HashLink smooth class="nav-link" to="/#about">
                     About
-                  </a>
+                  </HashLink>
                 </li>
                 <li>
-                  <a href="/myportfolio#experience">Experience</a>
+                  <HashLink smooth to="/#experience">
+                    Experience
+                  </HashLink>
                 </li>
                 <li>
-                  <a href="/myportfolio#projects">Projects</a>
+                  <HashLink smooth to="/#projects">
+                    Projects
+                  </HashLink>
                 </li>
                 <li>
-                  <a href="/myportfolio#contact">Contact</a>
+                  <HashLink smooth to="/#contact">
+                    Contact
+                  </HashLink>
                 </li>
               </ul>
             </nav>
