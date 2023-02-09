@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ihetal.github.io/myportfolio/static/css/main.b9c2614d.css",
-    "main.js": "/ihetal.github.io/myportfolio/static/js/main.be467215.js",
+    "main.js": "/ihetal.github.io/myportfolio/static/js/main.b38afb70.js",
     "static/js/787.1ed0c42c.chunk.js": "/ihetal.github.io/myportfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/pathfinder.webm": "/ihetal.github.io/myportfolio/static/media/pathfinder.6d9996895adc422689ee.webm",
     "static/media/drawscillate.webm": "/ihetal.github.io/myportfolio/static/media/drawscillate.5a3b76d4a287d9a259e6.webm",
@@ -26,11 +26,11 @@
     "index.html": "/ihetal.github.io/myportfolio/index.html",
     "static/media/github.svg": "/ihetal.github.io/myportfolio/static/media/github.ca3156b4372e9d26fc1d699002d06890.svg",
     "main.b9c2614d.css.map": "/ihetal.github.io/myportfolio/static/css/main.b9c2614d.css.map",
-    "main.be467215.js.map": "/ihetal.github.io/myportfolio/static/js/main.be467215.js.map",
+    "main.b38afb70.js.map": "/ihetal.github.io/myportfolio/static/js/main.b38afb70.js.map",
     "787.1ed0c42c.chunk.js.map": "/ihetal.github.io/myportfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9c2614d.css",
-    "static/js/main.be467215.js"
+    "static/js/main.b38afb70.js"
   ]
 }
