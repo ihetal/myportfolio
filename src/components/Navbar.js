@@ -32,40 +32,40 @@ export class Navbar extends Component {
           <nav class="nav-menu">
             <ul>
               <li>
-                <a href="/myportfolio">
+                <HashLink smooth class="nav-link" to="/#">
                   <i
                     class="fa fa-home"
                     aria-hidden="true"
                     style={{ fontSize: "18px" }}
                   ></i>{" "}
                   Home
-                </a>
+                </HashLink>
               </li>
               <li>
-                <a href="/myportfolio#about">
+                <HashLink smooth class="nav-link" to="/#about">
                   <i
                     class="fa fa-user"
                     aria-hidden="true"
                     style={{ fontSize: "18px" }}
                   ></i>{" "}
                   About
-                </a>
+                </HashLink>
               </li>
 
               <li>
-                <a href="/myportfolio#experience">
+                <HashLink smooth class="nav-link" to="/#experience">
                   <i class="fa fa-file" aria-hidden="true"></i> Experience
-                </a>
+                </HashLink>
               </li>
               <li>
-                <a href="/myportfolio#projects">
+                <HashLink smooth class="nav-link" to="/#projects">
                   <i class="fa fa-folder-open" aria-hidden="true"></i> Projects
-                </a>
+                </HashLink>
               </li>
               <li>
-                <a href="/myportfolio#contact">
+                <HashLink smooth class="nav-link" to="/#contact">
                   <i class="fa fa-envelope" aria-hidden="true"></i> Contact Me
-                </a>
+                </HashLink>
               </li>
             </ul>
           </nav>
@@ -76,33 +76,35 @@ export class Navbar extends Component {
           </button>
           <div class="container d-flex align-items-center">
             <h1 class="logo mr-auto name-logo">
-              <a href="/myportfolio">HS</a>
+              <HashLink smooth class="nav-link" to="/#">
+                HS
+              </HashLink>
             </h1>
 
             <nav class="main-nav d-none d-lg-block">
               <ul>
                 <li>
-                  <HashLink smooth class="nav-link" to="/myportfolio#home">
+                  <HashLink smooth class="nav-link" to="/#home">
                     Home
                   </HashLink>
                 </li>
                 <li>
-                  <HashLink smooth class="nav-link" to="/myportfolio#about">
+                  <HashLink smooth class="nav-link" to="/#about">
                     About
                   </HashLink>
                 </li>
                 <li>
-                  <HashLink smooth to="/myportfolio#experience">
+                  <HashLink smooth to="/#experience">
                     Experience
                   </HashLink>
                 </li>
                 <li>
-                  <HashLink smooth to="/myportfolio#projects">
+                  <HashLink smooth to="/#projects">
                     Projects
                   </HashLink>
                 </li>
                 <li>
-                  <HashLink smooth to="/myportfolio#contact">
+                  <HashLink smooth to="/#contact">
                     Contact
                   </HashLink>
                 </li>
