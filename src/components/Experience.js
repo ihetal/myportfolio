@@ -150,7 +150,7 @@ export class Experience extends Component {
                     <h6 class="caption-text experience-card-company">
                       Lennox India Technology Centre
                     </h6>
-                    <h4 className="experience-card-title">Data Analyst</h4>
+                    <h4 className="experience-card-title">Software Engineer</h4>
                   </div>
                   <div className="experience-card-heading-right">
                     <p className="experience-card-location">Chennai India</p>
@@ -163,23 +163,22 @@ export class Experience extends Component {
             </div>
             <ul className="experience-description">
               <li>
-                Analysed business goals {"&"} processes, constructed data
-                models, analysed data and presented valuable recommendations on
-                business problems to business partners and key stakeholders.
+                Worked with IOT data, creating highly concurrent spark job
+                processing frameworks and reducing processing time by over 60%.
               </li>
               <li>
-                Identified bottlenecks and automated ETL process using spark
-                jobs making it easier to wrangle the data and reducing the
-                processing time by 75%. Was awarded the lean sigma certificate
-                for this process improvement.
+                Identified bottlenecks in supply chain pipelines and automated
+                them using spark jobs, modelled projections and delivered
+                results to users conserving close to $10,000/year for the
+                company based on HR and TPM calculation.
               </li>
               <li>
-                Conserved close to $10,000/year for the company based on HR and
-                TPM calculation.
+                Implemented and created backend services to access the data
+                using REST API’s in python flask.
                 <br />
                 <strong>
-                  Technology Stack: Python, Python Spark, SQL, MySQL, Azure,
-                  Databricks, Power BI.
+                  Technology Stack: Python Flask, Spark, Spark Streaming, SQL,
+                  PostGres, AWS S3
                 </strong>
               </li>
             </ul>
@@ -220,7 +219,7 @@ export class Experience extends Component {
             <ul className="experience-description">
               <li>
                 Worked in building a web application for electronic health
-                record system for hospitals.Re-engineered database design and
+                record system for hospitals. Re-engineered database design and
                 created back end services using REST APIs in JAVA to perform
                 CRUD operations.
               </li>
@@ -231,7 +230,8 @@ export class Experience extends Component {
               <li>
                 Performed Junit testing on the components. <br />
                 <strong>
-                  Technology Stack: Java, HTML, CSS, Javascript, SQL.
+                  Technology Stack: Spring Boot ,Java, HTML, CSS, Javascript,
+                  SQL.
                 </strong>
               </li>
             </ul>
