@@ -163,6 +163,10 @@ export class Experience extends Component {
             </div>
             <ul className="experience-description">
               <li>
+                Designed and built scalable backend REST APIs for internal and
+                external consumption.
+              </li>
+              <li>
                 Worked with IOT data, creating highly concurrent spark job
                 processing frameworks and reducing processing time by over 60%.
               </li>
@@ -171,10 +175,6 @@ export class Experience extends Component {
                 them using spark jobs, modelled projections and delivered
                 results to users conserving close to $10,000/year for the
                 company based on HR and TPM calculation.
-              </li>
-              <li>
-                Implemented and created backend services to access the data
-                using REST APIs in python flask.
                 <br />
                 <strong>
                   Technology Stack: Python Flask, Spark, Spark Streaming, SQL,
