@@ -174,7 +174,7 @@ export class Experience extends Component {
               </li>
               <li>
                 Implemented and created backend services to access the data
-                using REST API’s in python flask.
+                using REST APIs in python flask.
                 <br />
                 <strong>
                   Technology Stack: Python Flask, Spark, Spark Streaming, SQL,
